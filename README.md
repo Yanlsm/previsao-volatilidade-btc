@@ -26,7 +26,7 @@ Para refletir a dinâmica atual, o estudo utiliza uma abordagem multivariada com
 
 Os testes empíricos demonstraram que a transição de modelos estatísticos univariados para arquiteturas profundas multivariadas traz ganhos significativos:
 
-* **TFT (Estado-da-Arte):** Registrou o menor erro global com um **RMSE de 0.0100**[cite: 421]. [cite_start]Conseguiu minimizar os erros preditivos ao filtrar o ruído das ações de tecnologia e ponderar a influência de choques passados.
+* **TFT (Estado-da-Arte):** Registrou o menor erro global com um **RMSE de 0.0100**.Conseguiu minimizar os erros preditivos ao filtrar o ruído das ações de tecnologia e ponderar a influência de choques passados.
 * **LSTM:** Alcançou um **RMSE de 0.0108**, validando a capacidade de aprendizado não linear, mas sofreu com atraso na atualização de pesos durante picos extremos.
 * **GARCH(1,1):** Obteve o maior erro com um **RMSE de 0.0263**, demonstrando dificuldade em reagir a quebras estruturais e em incorporar sinais multivariados complexos.
 
