@@ -13,7 +13,7 @@ O estudo contrasta três abordagens distintas para lidar com séries temporais f
 
 ## 📊 Dataset e Pré-processamento
 
-Para refletir a dinâmica atual, o estudo utiliza uma abordagem multivariada com dados de fechamento de granularidade horária abrangendo um histórico de 730 dias, de 2024 a 2026[cite: 245, 258].
+Para refletir a dinâmica atual, o estudo utiliza uma abordagem multivariada com dados de fechamento de granularidade horária abrangendo um histórico de 730 dias, de 2024 a 2026.
 
 * **Ativo Alvo:** Bitcoin (BTC-USD).
 * **Variáveis Exógenas (Contexto de Mercado):** ETH-USD, SOL-USD, e ações do setor de tecnologia tradicionais (NVDA, AAPL, MSFT, GOOGL, QQQ).
@@ -26,9 +26,9 @@ Para refletir a dinâmica atual, o estudo utiliza uma abordagem multivariada com
 
 Os testes empíricos demonstraram que a transição de modelos estatísticos univariados para arquiteturas profundas multivariadas traz ganhos significativos:
 
-* **TFT (Estado-da-Arte):** Registrou o menor erro global com um **RMSE de 0.0100**.Conseguiu minimizar os erros preditivos ao filtrar o ruído das ações de tecnologia e ponderar a influência de choques passados.
-* **LSTM:** Alcançou um **RMSE de 0.0108**, validando a capacidade de aprendizado não linear, mas sofreu com atraso na atualização de pesos durante picos extremos.
-* **GARCH(1,1):** Obteve o maior erro com um **RMSE de 0.0263**, demonstrando dificuldade em reagir a quebras estruturais e em incorporar sinais multivariados complexos.
+* **TFT (Estado-da-Arte):** Registrou o menor erro global com um **RMSE de 0.0098**.Conseguiu minimizar os erros preditivos ao filtrar o ruído das ações de tecnologia e ponderar a influência de choques passados.
+* **LSTM:** Alcançou um **RMSE de 0.0101**, validando a capacidade de aprendizado não linear, mas sofreu com atraso na atualização de pesos durante picos extremos.
+* **GARCH(1,1):** Obteve o maior erro com um **RMSE de 0.0191**, demonstrando dificuldade em reagir a quebras estruturais e em incorporar sinais multivariados complexos.
 
 ## 🚀 Trabalhos Futuros
 
